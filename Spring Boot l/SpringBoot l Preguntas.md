@@ -29,6 +29,7 @@
 
 **R//:** Usando la anotación `@RequestMapping` o específicas como `@GetMapping` o `@PostMapping`.
 
+![image](https://github.com/user-attachments/assets/81660383-dfa5-4436-b931-9fc1862d37fc)
 
 
  **6. ¿Cuál es el puerto por defecto en el que corre Spring Boot?**
