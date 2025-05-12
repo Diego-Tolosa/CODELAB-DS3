@@ -16,15 +16,19 @@ Esto se hizon en windows utilizando Docker Desktop
 ## Desplegando nuestra primera aplicación
 
 - Creamos un deployment con nginx
+  
 ![Crear el deployment](./imgs/Creardeployment.PNG)
 
 - Verificamos que el pod se esté ejecutando:
+  
 ![Verificar el pod](./imgs/VerificarPod.PNG)
 
 - exponemos el servicio
+  
 ![Exponer el servicio](./imgs/ExponerServicio.PNG)
 
 - Revisamos el servicio:
+  
 ![Revizar el servicio](./imgs/RevizamosService.PNG)
 
 ### Accedemos desde el navegador
@@ -34,9 +38,11 @@ Esto se hizon en windows utilizando Docker Desktop
 ### Escalamos la aplicación
 
 - Aumentamos el número de replicas a 3:
+  
 ![Aumentar el número de replicas](./imgs/EscalarAplicación.PNG)
 
 ### Ahora eliminamos todo
 
 - Limpiamos los recursos creados
+  
 ![Limpiar los recursos creados](./imgs/EliminarTodo.PNG)
