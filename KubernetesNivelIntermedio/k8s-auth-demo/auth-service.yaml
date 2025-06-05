@@ -22,13 +22,13 @@ spec:
         app: auth-service
     spec:
       containers:
-        - name: pais
-          image: alvarosalazar/pais-service:latest
+        - name: auth
+          image: alvarosalazar/auth-service:latest
           ports:
             - containerPort: 8080
           env:
-            - name: db2
-              value: jdbc:postgresql://db1:5432/curso_springboot
+            - name: DB_URL
+              value: jdbc:postgresql://db2:5432/curso_springboot
             - name: DB_USERNAME
               value: devdb
             - name: DB_PASSWORD
